@@ -4,16 +4,24 @@
 
 | [编程语言](#一、编程语言) | [通用处理平台](#二、通用处理平台) | [分布式协调](#三、分布式协调) | [分布式存储](#四、分布式存储) | [数据分析/数据仓库](#五、数据分析/数据仓库) | [消息队列](#六、消息队列) |
 | ------------------------- | --------------------------------- | ----------------------------- | ----------------------------- | ------------------------------------------- | ------------------------- |
-| [Java](#Java)             | [Spark](#Spark)                   | [Zookeeper](#Zookeeper)       |                               | [Hive](#Hive)                               | [Kafka](#Kafka)           |
-| [Scala](#Scala)           |                                   |                               |                               |                                             |                           |
+| [Java](#Java)             | [Spark](#Spark)                   | [Zookeeper](#Zookeeper)       | HDFS                          | [Hive](#Hive)                               | [Kafka](#Kafka)           |
+| [Scala](#Scala)           | Flink                             |                               | Alluxio(techyon)              | Pig                                         | RabbitMQ                  |
+| Python                    | Hadoop                            |                               | Ignite                        | Spark SQL/DataFrame/DataSet                 | RocketMQ                  |
+| R                         | Drill                             |                               |                               | ELK                                         | ZeroMQ                    |
 
 | [存储格式](#七、存储格式) | [数据库](#八、数据库) | [资源调度](#九、资源调度) | [工作流调度](#十、工作流调度) | [数据安全](#十一、数据安全) | [部署工具](#十二、部署工具) |
 | ------------------------- | --------------------- | ------------------------- | ----------------------------- | --------------------------- | --------------------------- |
-|                           | [Hbase](#Hbaase)      | [Yarn](#Yarn)             | [Azkaban](#Azkaban)           |                             |                             |
+| Parquet                   | [Hbase](#Hbaase)      | [Yarn](#Yarn)             | [Azkaban](#Azkaban)           | Sentry                      | Ambari                      |
+| ORC                       | MySQL                 | Mesos                     | Oozie                         | Apache Eagle                | Cloudera Manager            |
+| CarbonData                | Redis                 | Kubernetes                |                               |                             |                             |
+| Kudu                      | PostgreSQL            |                           |                               |                             |                             |
 
 | [云计算](#十三、云计算) | [机器学习](#十四、机器学习) | [数据搜索/可视化](#十五、数据搜索/可视化) | [数据分析挖掘](#十六、数据分析挖掘) | [日志收集](#十七、日志收集) | [流式计算](#十八、流式计算) |
 | ----------------------- | --------------------------- | ----------------------------------------- | ----------------------------------- | --------------------------- | --------------------------- |
-|                         |                             |                                           |                                     |                             |                             |
+| 云服务                  | 机器学习工具                | Hue                                       | Matlab                              | Scribe                      | Strom                       |
+| OpenStack               | 机器学习基础                | Echarts                                   | SPSS                                | Flume                       | Spark Streaming             |
+| Docker                  |                             | D3.js                                     | SAS                                 | Sqoop                       | Flink                       |
+|                         |                             | R                                         |                                     |                             |                             |
 
 # 一、编程语言
 
@@ -64,8 +72,6 @@ Spark SQL/DataFrame/DataSet
 Phoenix
 
 ELK
-
-ElasticSearch
 
 Logstash
 
